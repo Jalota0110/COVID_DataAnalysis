@@ -2,11 +2,6 @@
 
 USE covid;
 
-ALTER TABLE `coviddeathsnew` 
-RENAME TO  `coviddeaths` ;
-
-ALTER TABLE `covid_vac - coviddeaths` 
-RENAME TO  `covidvac` ;
 
 SELECT * from covidvac
 ORDER BY 3,4;
